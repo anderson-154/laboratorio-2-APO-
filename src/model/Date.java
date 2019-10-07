@@ -18,6 +18,11 @@ public class Date{
 	private String month;
 	private int day;
 	//metodo constructor
+	/**metodo constructor Date 
+	*<p/>des</p>este metodo ingresara un mes y un dia
+	*@param month, day
+	*@return este metodo no retorna
+	*/
 public Date(int month, int day){	
 	switch(month){
 		case 1:

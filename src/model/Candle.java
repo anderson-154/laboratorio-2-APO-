@@ -6,6 +6,11 @@ public class Candle{
 	private String essence;
 	private int luminisenceGrade;
 	//metodo constructor
+		/** metodo constructor candle
+		*<p/>des</p>ingresa color, tamaño, esencia, luminisencia de la vela
+		*@param color, size, essence y luminisencia de la vela
+		*@return este metodo no retorna 
+		*/
 public Candle(String color, int size, String essence, int luminisenceGrade){
 	this.color=color;
 	this.size=size;
@@ -38,6 +43,11 @@ public Candle(String color, int size, String essence, int luminisenceGrade){
 		this.luminisenceGrade=luminisenceGrade;
 	}
 	//metodo analizador mostrar informacion de la vela
+		/** metodo mostrar informacion de la vela
+		*<p/>des</p> este metodo toma los atributos de la vela y los concatena para mostrarlos
+		*@param este metodo no tiene parametros
+		*@return este metodo retorna una cadena de caracteres con los atributos de la vela
+		*/
 	public String showInfoCandle(){
 		String infoCandle=("color candle"+color+"size candle"+size+"essence candle"+essence+"luminisence grade candle"+luminisenceGrade);
 			return infoCandle;
